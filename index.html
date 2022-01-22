@@ -2,11 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Ajax Modern Contact Form</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <h1>Ajax Modern Contact From</h1>
+<body class="bg-blue-700">
+<div class="bg-gray-200 mx-auto">
+    <h1 class="font-semibold text-2xl text-center py-5">Ajax Modern Contact From</h1>
+    <hr>
+    <div class="flex bg-gray-200 mx-auto justify-evenly">
+        <form class="bg-gray-100 text-black">
+            <input type="text" name="name" id="name" placeholder="Your Name">
+            <input type="phonenumber" name="phonenumber" id="phonenumber" placeholder="2002222222">
+            <input type="email" name="email" id="email" placeholder="example@gmail.com">
+            <input type="text">
+            <select name="" id="">
+                <option value="Sales">Sales</option>
+                <option value="Services">Services</option>
+                <option value="Accounting">Accounting</option>
+            </select>
+            <div id="terms" class="flex">
+                <p class="mr-1">I accepted </p>
+                <a href="#" class="text-green-500"> Terms&Conditions</a>
+            </div>
+                <input type="submit" value="Send Message" class="bg-green-500 text-gray-200">
+        </form>
+    </div>
+</div>
 
 </body>
 </html>
